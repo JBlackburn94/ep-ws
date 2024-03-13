@@ -25,6 +25,19 @@ g {
     visibility: hidden;
 }
 
+.reveal {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.home-button {
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+}
+
 @media screen and (max-width: 768px) {
     svg {
         width: 16rem;

@@ -52,8 +52,7 @@ export default function App() {
     tl.to(
       "svg",
       {
-        yPercent: -4000,
-        opacity: 0,
+        yPercent: -400,
       },
       "+=1.5"
     );
@@ -100,7 +99,11 @@ export default function App() {
         </g>
       </svg>
       <div className="reveal">
-        <h1>Welcome</h1>
+        <button>
+          <a href={App} className="home-button">
+            Enter
+          </a>
+        </button>
       </div>
     </>
   );

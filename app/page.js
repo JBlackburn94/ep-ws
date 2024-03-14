@@ -3,6 +3,7 @@
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import "./globals.css";
+import Link from "next/link";
 
 gsap.registerPlugin(useGSAP);
 
@@ -99,11 +100,9 @@ export default function App() {
         </g>
       </svg>
       <div className="reveal">
-        <button>
-          <a href={App} className="home-button">
-            Enter
-          </a>
-        </button>
+        <Link className="home-button" href="/shows">
+          Enter
+        </Link>
       </div>
     </>
   );
